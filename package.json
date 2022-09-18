@@ -1,0 +1,14 @@
+{
+  "name": "infinite-draggable-carousel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "tsc --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.8.3"
+  }
+}

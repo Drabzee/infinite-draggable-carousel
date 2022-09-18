@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infinite Draggable Carousel</title>
+    <!-- Feather Icons CDN -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div id="carousel">
+        <div class="carousel-items">
+            <div class="red"><p>600 x 400</p><p>(1)</p></div>
+            <div class="blue"><p>600 x 400</p><p>(2)</p></div>
+            <div class="purple"><p>600 x 400</p><p>(3)</p></div>
+            <div class="green"><p>600 x 400</p><p>(4)</p></div>
+            <div class="gray"><p>600 x 400</p><p>(5)</p></div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+    <script type="text/javascript">
+        const carousel = new Carousel({
+            containerId: 'carousel',
+            animationDuration: 300,
+            autoPlay: true,
+            autoPlayDuration: 3000
+        });
+
+        feather.replace();
+    </script>
+</body>
+</html>
